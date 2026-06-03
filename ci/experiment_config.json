@@ -1,5 +1,5 @@
 {
   "extra_tests": 0,
-  "slow_test_seconds": 2,
+  "slow_test_seconds": 5,
   "force_failure": false
 }
