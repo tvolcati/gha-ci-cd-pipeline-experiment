@@ -7,7 +7,12 @@ build/
 dist/
 *.egg-info/
 artifacts/
+!artifacts/
+!artifacts/graphs/
+!artifacts/graphs/*.png
 data/
 !data/
 !data/.gitkeep
+!data/*.csv
+!data/*.json
 

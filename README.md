@@ -38,7 +38,7 @@ ruff check .
 ```bash
 export GITHUB_TOKEN=seu_token
 python scripts/collect_github_actions_metrics.py \
-  --repo seu-usuario/seu-repo \
+  --repo tvolcati/gha-ci-cd-pipeline-experiment \
   --workflow ci-experiment.yml \
   --output-dir data
 ```

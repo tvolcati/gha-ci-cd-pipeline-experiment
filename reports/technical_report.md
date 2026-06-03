@@ -2,10 +2,10 @@
 
 ## 1. Identificacao do experimento
 
-- Repositorio: `SUBSTITUIR-PELO-LINK`
-- Workflow YAML: `SUBSTITUIR-PELO-LINK-DO-ARQUIVO`
-- Periodo de coleta: `SUBSTITUIR`
-- Quantidade de execucoes analisadas: `SUBSTITUIR`
+- Repositorio: `https://github.com/tvolcati/gha-ci-cd-pipeline-experiment`
+- Workflow YAML: `https://github.com/tvolcati/gha-ci-cd-pipeline-experiment/blob/main/.github/workflows/ci-experiment.yml`
+- Periodo de coleta: `2026-06-03`
+- Quantidade de execucoes analisadas: `1`
 
 ## 2. Objetivo
 
@@ -27,7 +27,7 @@ Preencha a tabela abaixo com os commits e as mudancas reais usadas no experiment
 
 | Execucao | Run ID | Commit SHA | Variacao aplicada | Hipotese inicial | Resultado observado |
 |---|---:|---|---|---|---|
-| 1 | TODO | TODO | Baseline com cache | TODO | TODO |
+| 1 | 26888726715 | 76641235834cb33213044382cc91b050aea96cbc | Baseline com cache e jobs paralelos | O pipeline deve concluir abaixo de 1 minuto com sucesso | Concluiu com sucesso em 36s; lint e tests dominaram o tempo total |
 | 2 | TODO | TODO | Repeticao do baseline | TODO | TODO |
 | 3 | TODO | TODO | `extra_tests = 10` | TODO | TODO |
 | 4 | TODO | TODO | `extra_tests = 30` | TODO | TODO |
@@ -50,15 +50,15 @@ Inclua obrigatoriamente:
 
 ### Links das execucoes
 
-1. `TODO`
-2. `TODO`
-3. `TODO`
+1. `https://github.com/tvolcati/gha-ci-cd-pipeline-experiment/actions/runs/26888726715`
+2. `Aguardando proximas execucoes reais`
+3. `Aguardando proximas execucoes reais`
 
 ### Prints
 
 Adicione as imagens nesta pasta ou faça referencia a elas:
 
-- `TODO`
+- `Adicionar prints das runs em reports/images/`
 
 ## 6. Base de dados coletada
 
@@ -74,7 +74,7 @@ Explique brevemente como a coleta foi feita:
 ```bash
 export GITHUB_TOKEN=seu_token
 python scripts/collect_github_actions_metrics.py \
-  --repo seu-usuario/seu-repo \
+  --repo tvolcati/gha-ci-cd-pipeline-experiment \
   --workflow ci-experiment.yml \
   --output-dir data
 ```

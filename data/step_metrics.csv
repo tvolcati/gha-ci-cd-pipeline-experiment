@@ -1,0 +1,23 @@
+run_id,job_id,job_name,step_name,step_number,step_status,step_duration_seconds
+26888726715,79308284589,tests,Set up job,1,success,1.0
+26888726715,79308284589,tests,Checkout repository,2,success,1.0
+26888726715,79308284589,tests,Set up Python,3,success,1.0
+26888726715,79308284589,tests,Install dependencies,4,success,16.0
+26888726715,79308284589,tests,Run automated tests,5,success,0.0
+26888726715,79308284589,tests,Build test metrics,6,success,0.0
+26888726715,79308284589,tests,Upload test artifacts,7,success,1.0
+26888726715,79308284589,tests,Post Set up Python,13,success,1.0
+26888726715,79308284589,tests,Post Checkout repository,14,success,0.0
+26888726715,79308284589,tests,Complete job,15,success,0.0
+26888726715,79308284665,lint,Set up job,1,success,1.0
+26888726715,79308284665,lint,Checkout repository,2,success,1.0
+26888726715,79308284665,lint,Set up Python,3,success,0.0
+26888726715,79308284665,lint,Install dependencies,4,success,17.0
+26888726715,79308284665,lint,Run static analysis,5,success,0.0
+26888726715,79308284665,lint,Post Set up Python,9,success,2.0
+26888726715,79308284665,lint,Post Checkout repository,10,success,0.0
+26888726715,79308284665,lint,Complete job,11,success,0.0
+26888726715,79308377122,summarize,Set up job,1,success,2.0
+26888726715,79308377122,summarize,Download test artifacts,2,success,1.0
+26888726715,79308377122,summarize,Publish summary,3,success,0.0
+26888726715,79308377122,summarize,Complete job,4,success,0.0

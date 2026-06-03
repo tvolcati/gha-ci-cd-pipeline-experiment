@@ -1,0 +1,2 @@
+run_id,run_number,commit_sha,commit_message,status,workflow_duration_seconds,test_count,test_failures,test_skipped,average_test_duration_seconds,total_test_duration_seconds,timestamp,html_url
+26888726715,1,76641235834cb33213044382cc91b050aea96cbc,chore: bootstrap CI/CD experiment project,success,36.0,8,0,1,0.0,0.0,2026-06-03T13:42:14Z,https://github.com/tvolcati/gha-ci-cd-pipeline-experiment/actions/runs/26888726715

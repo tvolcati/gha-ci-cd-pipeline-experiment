@@ -1,0 +1,250 @@
+[
+  {
+    "run_id": 26888726715,
+    "run_number": 1,
+    "commit_sha": "76641235834cb33213044382cc91b050aea96cbc",
+    "commit_message": "chore: bootstrap CI/CD experiment project",
+    "status": "success",
+    "workflow_duration_seconds": 36.0,
+    "test_count": 8,
+    "test_failures": 0,
+    "test_skipped": 1,
+    "average_test_duration_seconds": 0.0,
+    "total_test_duration_seconds": 0.0,
+    "timestamp": "2026-06-03T13:42:14Z",
+    "html_url": "https://github.com/tvolcati/gha-ci-cd-pipeline-experiment/actions/runs/26888726715",
+    "jobs": [
+      {
+        "run_id": 26888726715,
+        "job_id": 79308284589,
+        "job_name": "tests",
+        "job_status": "success",
+        "job_duration_seconds": 22.0,
+        "started_at": "2026-06-03T13:42:18Z",
+        "completed_at": "2026-06-03T13:42:40Z",
+        "steps": [
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Set up job",
+            "step_number": 1,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Checkout repository",
+            "step_number": 2,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Set up Python",
+            "step_number": 3,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Install dependencies",
+            "step_number": 4,
+            "step_status": "success",
+            "step_duration_seconds": 16.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Run automated tests",
+            "step_number": 5,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Build test metrics",
+            "step_number": 6,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Upload test artifacts",
+            "step_number": 7,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Post Set up Python",
+            "step_number": 13,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Post Checkout repository",
+            "step_number": 14,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284589,
+            "job_name": "tests",
+            "step_name": "Complete job",
+            "step_number": 15,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          }
+        ]
+      },
+      {
+        "run_id": 26888726715,
+        "job_id": 79308284665,
+        "job_name": "lint",
+        "job_status": "success",
+        "job_duration_seconds": 23.0,
+        "started_at": "2026-06-03T13:42:18Z",
+        "completed_at": "2026-06-03T13:42:41Z",
+        "steps": [
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Set up job",
+            "step_number": 1,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Checkout repository",
+            "step_number": 2,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Set up Python",
+            "step_number": 3,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Install dependencies",
+            "step_number": 4,
+            "step_status": "success",
+            "step_duration_seconds": 17.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Run static analysis",
+            "step_number": 5,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Post Set up Python",
+            "step_number": 9,
+            "step_status": "success",
+            "step_duration_seconds": 2.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Post Checkout repository",
+            "step_number": 10,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308284665,
+            "job_name": "lint",
+            "step_name": "Complete job",
+            "step_number": 11,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          }
+        ]
+      },
+      {
+        "run_id": 26888726715,
+        "job_id": 79308377122,
+        "job_name": "summarize",
+        "job_status": "success",
+        "job_duration_seconds": 6.0,
+        "started_at": "2026-06-03T13:42:43Z",
+        "completed_at": "2026-06-03T13:42:49Z",
+        "steps": [
+          {
+            "run_id": 26888726715,
+            "job_id": 79308377122,
+            "job_name": "summarize",
+            "step_name": "Set up job",
+            "step_number": 1,
+            "step_status": "success",
+            "step_duration_seconds": 2.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308377122,
+            "job_name": "summarize",
+            "step_name": "Download test artifacts",
+            "step_number": 2,
+            "step_status": "success",
+            "step_duration_seconds": 1.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308377122,
+            "job_name": "summarize",
+            "step_name": "Publish summary",
+            "step_number": 3,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          },
+          {
+            "run_id": 26888726715,
+            "job_id": 79308377122,
+            "job_name": "summarize",
+            "step_name": "Complete job",
+            "step_number": 4,
+            "step_status": "success",
+            "step_duration_seconds": 0.0
+          }
+        ]
+      }
+    ]
+  }
+]
