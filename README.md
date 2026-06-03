@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="#visao-geral"><img alt="Visão Geral" src="https://img.shields.io/badge/Vis%C3%A3o%20Geral-1f6feb?style=for-the-badge"></a>
+  <a href="#entregaveis-objetivos"><img alt="Entregáveis" src="https://img.shields.io/badge/Entreg%C3%A1veis-0969da?style=for-the-badge"></a>
   <a href="#briefing-da-atividade"><img alt="Briefing" src="https://img.shields.io/badge/Briefing-238636?style=for-the-badge"></a>
   <a href="#stacks-utilizadas"><img alt="Stacks" src="https://img.shields.io/badge/Stacks-8957e5?style=for-the-badge"></a>
   <a href="#estrutura-do-repositorio"><img alt="Estrutura" src="https://img.shields.io/badge/Estrutura-f78166?style=for-the-badge"></a>
@@ -22,6 +23,21 @@ Resultado atual do experimento:
 - 4 gráficos gerados a partir dos dados reais
 - 1 relatório técnico consolidado em Markdown
 
+## Entregaveis Objetivos
+
+Se a ideia for corrigir rápido, a pasta [`entregaveis/`](entregaveis/) centraliza tudo de forma objetiva.
+
+Acesso direto:
+
+- índice dos entregáveis: [`entregaveis/README.md`](entregaveis/README.md)
+- repositório GitHub: <https://github.com/tvolcati/gha-ci-cd-pipeline-experiment>
+- workflow YAML: <https://github.com/tvolcati/gha-ci-cd-pipeline-experiment/blob/main/.github/workflows/ci-experiment.yml>
+- script de coleta: [`scripts/collect_github_actions_metrics.py`](scripts/collect_github_actions_metrics.py)
+- base de dados: [`data/`](data/)
+- gráficos: [`artifacts/graphs/`](artifacts/graphs/)
+- relatório técnico: [`reports/technical_report.md`](reports/technical_report.md)
+- reprodução resumida: [`entregaveis/README.md`](entregaveis/README.md)
+
 ## Briefing Da Atividade
 
 O que a atividade exigia:
@@ -41,6 +57,7 @@ Como este projeto atende:
 - base final em [`data/`](data/)
 - gráficos em [`artifacts/graphs/`](artifacts/graphs/)
 - relatório final em [`reports/technical_report.md`](reports/technical_report.md)
+- pasta de entrega objetiva em [`entregaveis/README.md`](entregaveis/README.md)
 
 ## Stacks Utilizadas
 
@@ -75,6 +92,7 @@ Como este projeto atende:
 ├── artifacts/graphs/
 ├── ci/
 ├── data/
+├── entregaveis/
 ├── reports/
 ├── scripts/
 ├── src/ci_experiment/
@@ -95,6 +113,9 @@ Como este projeto atende:
 - [`data/`](data/)
   Guarda a base de dados coletada do GitHub Actions:
   `run_metrics.csv`, `job_metrics.csv`, `step_metrics.csv` e `collected_metrics.json`.
+
+- [`entregaveis/`](entregaveis/)
+  Reúne objetivamente os itens pedidos no enunciado, com links diretos para correção rápida.
 
 - [`reports/`](reports/)
   Guarda o relatório técnico principal da atividade.
@@ -136,10 +157,10 @@ Checklist objetivo para quem for corrigir:
 
 ### Roteiro rápido para avaliar o projeto
 
-1. Abrir o repositório e confirmar a presença do workflow.
-2. Abrir a aba `Actions` e conferir as execuções listadas no relatório.
-3. Conferir os arquivos em `data/` e verificar se refletem execuções reais.
-4. Conferir os gráficos em `artifacts/graphs/`.
+1. Abrir [`entregaveis/README.md`](entregaveis/README.md).
+2. Conferir o link do repositório e do workflow.
+3. Abrir a aba `Actions` e conferir as execuções listadas no relatório.
+4. Conferir os arquivos em `data/` e os gráficos em `artifacts/graphs/`.
 5. Ler o relatório e validar se as respostas batem com a base coletada.
 
 ## Reproducao
@@ -173,6 +194,7 @@ python3 scripts/generate_graphs.py \
 
 ## Links Importantes
 
+- Entregáveis objetivos: [`entregaveis/README.md`](entregaveis/README.md)
 - Repositório: <https://github.com/tvolcati/gha-ci-cd-pipeline-experiment>
 - Workflow: <https://github.com/tvolcati/gha-ci-cd-pipeline-experiment/blob/main/.github/workflows/ci-experiment.yml>
 - Relatório técnico: [`reports/technical_report.md`](reports/technical_report.md)
