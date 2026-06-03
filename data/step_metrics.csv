@@ -1,4 +1,246 @@
 run_id,job_id,job_name,step_name,step_number,step_status,step_duration_seconds
+26889288850,79310352694,tests,Set up job,1,success,1.0
+26889288850,79310352694,tests,Checkout repository,2,success,1.0
+26889288850,79310352694,tests,Set up Python,3,success,4.0
+26889288850,79310352694,tests,Install dependencies,4,success,15.0
+26889288850,79310352694,tests,Run automated tests,5,success,1.0
+26889288850,79310352694,tests,Build test metrics,6,success,0.0
+26889288850,79310352694,tests,Upload test artifacts,7,success,2.0
+26889288850,79310352694,tests,Post Set up Python,13,success,0.0
+26889288850,79310352694,tests,Post Checkout repository,14,success,0.0
+26889288850,79310352694,tests,Complete job,15,success,0.0
+26889288850,79310352819,lint,Set up job,1,success,1.0
+26889288850,79310352819,lint,Checkout repository,2,success,1.0
+26889288850,79310352819,lint,Set up Python,3,success,1.0
+26889288850,79310352819,lint,Install dependencies,4,success,16.0
+26889288850,79310352819,lint,Run static analysis,5,success,0.0
+26889288850,79310352819,lint,Post Set up Python,9,success,0.0
+26889288850,79310352819,lint,Post Checkout repository,10,success,0.0
+26889288850,79310352819,lint,Complete job,11,success,0.0
+26889288850,79310465460,summarize,Set up job,1,success,1.0
+26889288850,79310465460,summarize,Download test artifacts,2,success,1.0
+26889288850,79310465460,summarize,Publish summary,3,success,0.0
+26889288850,79310465460,summarize,Complete job,4,success,0.0
+26889284157,79310334675,lint,Set up job,1,success,0.0
+26889284157,79310334675,lint,Checkout repository,2,success,1.0
+26889284157,79310334675,lint,Set up Python,3,success,1.0
+26889284157,79310334675,lint,Install dependencies,4,success,16.0
+26889284157,79310334675,lint,Run static analysis,5,success,0.0
+26889284157,79310334675,lint,Post Set up Python,9,success,0.0
+26889284157,79310334675,lint,Post Checkout repository,10,success,0.0
+26889284157,79310334675,lint,Complete job,11,success,0.0
+26889284157,79310417592,tests,Set up job,1,success,1.0
+26889284157,79310417592,tests,Checkout repository,2,success,1.0
+26889284157,79310417592,tests,Set up Python,3,success,1.0
+26889284157,79310417592,tests,Install dependencies,4,success,15.0
+26889284157,79310417592,tests,Run automated tests,5,success,1.0
+26889284157,79310417592,tests,Build test metrics,6,success,0.0
+26889284157,79310417592,tests,Upload test artifacts,7,success,1.0
+26889284157,79310417592,tests,Post Set up Python,13,success,0.0
+26889284157,79310417592,tests,Post Checkout repository,14,success,0.0
+26889284157,79310417592,tests,Complete job,15,success,0.0
+26889284157,79310514123,summarize,Set up job,1,success,1.0
+26889284157,79310514123,summarize,Download test artifacts,2,success,1.0
+26889284157,79310514123,summarize,Publish summary,3,success,0.0
+26889284157,79310514123,summarize,Complete job,4,success,0.0
+26889281225,79310322375,tests,Set up job,1,success,1.0
+26889281225,79310322375,tests,Checkout repository,2,success,1.0
+26889281225,79310322375,tests,Set up Python,3,success,3.0
+26889281225,79310322375,tests,Install dependencies,4,success,16.0
+26889281225,79310322375,tests,Run automated tests,5,success,0.0
+26889281225,79310322375,tests,Build test metrics,6,success,0.0
+26889281225,79310322375,tests,Upload test artifacts,7,success,1.0
+26889281225,79310322375,tests,Post Set up Python,13,success,0.0
+26889281225,79310322375,tests,Post Checkout repository,14,success,0.0
+26889281225,79310322375,tests,Complete job,15,success,0.0
+26889281225,79310322442,lint,Set up job,1,success,1.0
+26889281225,79310322442,lint,Checkout repository,2,success,1.0
+26889281225,79310322442,lint,Set up Python,3,success,1.0
+26889281225,79310322442,lint,Install dependencies,4,success,15.0
+26889281225,79310322442,lint,Run static analysis,5,success,0.0
+26889281225,79310322442,lint,Post Set up Python,9,success,0.0
+26889281225,79310322442,lint,Post Checkout repository,10,success,0.0
+26889281225,79310322442,lint,Complete job,11,success,0.0
+26889281225,79310421121,summarize,Set up job,1,success,1.0
+26889281225,79310421121,summarize,Download test artifacts,2,success,0.0
+26889281225,79310421121,summarize,Publish summary,3,success,0.0
+26889281225,79310421121,summarize,Complete job,4,success,0.0
+26889276148,79310303755,tests,Set up job,1,success,1.0
+26889276148,79310303755,tests,Checkout repository,2,success,1.0
+26889276148,79310303755,tests,Set up Python,3,success,0.0
+26889276148,79310303755,tests,Install dependencies,4,success,17.0
+26889276148,79310303755,tests,Run automated tests,5,success,1.0
+26889276148,79310303755,tests,Build test metrics,6,success,0.0
+26889276148,79310303755,tests,Upload test artifacts,7,success,1.0
+26889276148,79310303755,tests,Post Set up Python,13,success,0.0
+26889276148,79310303755,tests,Post Checkout repository,14,success,0.0
+26889276148,79310303755,tests,Complete job,15,success,0.0
+26889276148,79310303992,lint,Set up job,1,success,1.0
+26889276148,79310303992,lint,Checkout repository,2,success,1.0
+26889276148,79310303992,lint,Set up Python,3,success,0.0
+26889276148,79310303992,lint,Install dependencies,4,success,17.0
+26889276148,79310303992,lint,Run static analysis,5,success,0.0
+26889276148,79310303992,lint,Post Set up Python,9,success,0.0
+26889276148,79310303992,lint,Post Checkout repository,10,success,0.0
+26889276148,79310303992,lint,Complete job,11,success,0.0
+26889276148,79310395156,summarize,Set up job,1,success,2.0
+26889276148,79310395156,summarize,Download test artifacts,2,success,1.0
+26889276148,79310395156,summarize,Publish summary,3,success,0.0
+26889276148,79310395156,summarize,Complete job,4,success,0.0
+26889271482,79310287146,tests,Set up job,1,success,1.0
+26889271482,79310287146,tests,Checkout repository,2,success,1.0
+26889271482,79310287146,tests,Set up Python,3,success,3.0
+26889271482,79310287146,tests,Install dependencies,4,success,17.0
+26889271482,79310287146,tests,Run automated tests,5,success,1.0
+26889271482,79310287146,tests,Build test metrics,6,success,0.0
+26889271482,79310287146,tests,Upload test artifacts,7,success,1.0
+26889271482,79310287146,tests,Post Set up Python,13,success,0.0
+26889271482,79310287146,tests,Post Checkout repository,14,success,0.0
+26889271482,79310287146,tests,Complete job,15,success,0.0
+26889271482,79310287195,lint,Set up job,1,success,1.0
+26889271482,79310287195,lint,Checkout repository,2,success,1.0
+26889271482,79310287195,lint,Set up Python,3,success,3.0
+26889271482,79310287195,lint,Install dependencies,4,success,15.0
+26889271482,79310287195,lint,Run static analysis,5,success,0.0
+26889271482,79310287195,lint,Post Set up Python,9,success,0.0
+26889271482,79310287195,lint,Post Checkout repository,10,success,0.0
+26889271482,79310287195,lint,Complete job,11,success,0.0
+26889271482,79310400739,summarize,Set up job,1,success,1.0
+26889271482,79310400739,summarize,Download test artifacts,2,success,1.0
+26889271482,79310400739,summarize,Publish summary,3,success,0.0
+26889271482,79310400739,summarize,Complete job,4,success,0.0
+26889268378,79310275445,lint,Set up job,1,success,1.0
+26889268378,79310275445,lint,Checkout repository,2,success,0.0
+26889268378,79310275445,lint,Set up Python,3,success,1.0
+26889268378,79310275445,lint,Install dependencies,4,success,16.0
+26889268378,79310275445,lint,Run static analysis,5,success,0.0
+26889268378,79310275445,lint,Post Set up Python,9,success,0.0
+26889268378,79310275445,lint,Post Checkout repository,10,success,0.0
+26889268378,79310275445,lint,Complete job,11,success,0.0
+26889268378,79310275478,tests,Set up job,1,success,1.0
+26889268378,79310275478,tests,Checkout repository,2,success,1.0
+26889268378,79310275478,tests,Set up Python,3,success,1.0
+26889268378,79310275478,tests,Install dependencies,4,success,16.0
+26889268378,79310275478,tests,Run automated tests,5,failure,1.0
+26889268378,79310275478,tests,Build test metrics,6,success,0.0
+26889268378,79310275478,tests,Upload test artifacts,7,success,1.0
+26889268378,79310275478,tests,Post Set up Python,13,skipped,0.0
+26889268378,79310275478,tests,Post Checkout repository,14,success,0.0
+26889268378,79310275478,tests,Complete job,15,success,0.0
+26889268378,79310367551,summarize,Set up job,1,success,1.0
+26889268378,79310367551,summarize,Download test artifacts,2,success,1.0
+26889268378,79310367551,summarize,Publish summary,3,success,0.0
+26889268378,79310367551,summarize,Complete job,4,success,0.0
+26889268057,79310274726,tests,Set up job,1,success,1.0
+26889268057,79310274726,tests,Checkout repository,2,success,1.0
+26889268057,79310274726,tests,Set up Python,3,success,2.0
+26889268057,79310274726,tests,Install dependencies,4,success,16.0
+26889268057,79310274726,tests,Run automated tests,5,success,6.0
+26889268057,79310274726,tests,Build test metrics,6,success,0.0
+26889268057,79310274726,tests,Upload test artifacts,7,success,1.0
+26889268057,79310274726,tests,Post Set up Python,13,success,0.0
+26889268057,79310274726,tests,Post Checkout repository,14,success,0.0
+26889268057,79310274726,tests,Complete job,15,success,0.0
+26889268057,79310274755,lint,Set up job,1,success,1.0
+26889268057,79310274755,lint,Checkout repository,2,success,0.0
+26889268057,79310274755,lint,Set up Python,3,success,2.0
+26889268057,79310274755,lint,Install dependencies,4,success,15.0
+26889268057,79310274755,lint,Run static analysis,5,success,0.0
+26889268057,79310274755,lint,Post Set up Python,9,success,1.0
+26889268057,79310274755,lint,Post Checkout repository,10,success,0.0
+26889268057,79310274755,lint,Complete job,11,success,0.0
+26889268057,79310391346,summarize,Set up job,1,success,1.0
+26889268057,79310391346,summarize,Download test artifacts,2,success,1.0
+26889268057,79310391346,summarize,Publish summary,3,success,0.0
+26889268057,79310391346,summarize,Complete job,4,success,0.0
+26889261056,79310249183,lint,Set up job,1,success,1.0
+26889261056,79310249183,lint,Checkout repository,2,success,1.0
+26889261056,79310249183,lint,Set up Python,3,success,3.0
+26889261056,79310249183,lint,Install dependencies,4,success,16.0
+26889261056,79310249183,lint,Run static analysis,5,success,0.0
+26889261056,79310249183,lint,Post Set up Python,9,success,0.0
+26889261056,79310249183,lint,Post Checkout repository,10,success,0.0
+26889261056,79310249183,lint,Complete job,11,success,0.0
+26889261056,79310249311,tests,Set up job,1,success,1.0
+26889261056,79310249311,tests,Checkout repository,2,success,0.0
+26889261056,79310249311,tests,Set up Python,3,success,2.0
+26889261056,79310249311,tests,Install dependencies,4,success,16.0
+26889261056,79310249311,tests,Run automated tests,5,success,2.0
+26889261056,79310249311,tests,Build test metrics,6,success,0.0
+26889261056,79310249311,tests,Upload test artifacts,7,success,1.0
+26889261056,79310249311,tests,Post Set up Python,13,success,0.0
+26889261056,79310249311,tests,Post Checkout repository,14,success,1.0
+26889261056,79310249311,tests,Complete job,15,success,0.0
+26889261056,79310348017,summarize,Set up job,1,success,1.0
+26889261056,79310348017,summarize,Download test artifacts,2,success,1.0
+26889261056,79310348017,summarize,Publish summary,3,success,0.0
+26889261056,79310348017,summarize,Complete job,4,success,0.0
+26889258898,79310242345,tests,Set up job,1,success,1.0
+26889258898,79310242345,tests,Checkout repository,2,success,0.0
+26889258898,79310242345,tests,Set up Python,3,success,2.0
+26889258898,79310242345,tests,Install dependencies,4,success,15.0
+26889258898,79310242345,tests,Run automated tests,5,success,0.0
+26889258898,79310242345,tests,Build test metrics,6,success,0.0
+26889258898,79310242345,tests,Upload test artifacts,7,success,1.0
+26889258898,79310242345,tests,Post Set up Python,13,success,0.0
+26889258898,79310242345,tests,Post Checkout repository,14,success,1.0
+26889258898,79310242345,tests,Complete job,15,success,0.0
+26889258898,79310242595,lint,Set up job,1,success,0.0
+26889258898,79310242595,lint,Checkout repository,2,success,1.0
+26889258898,79310242595,lint,Set up Python,3,success,1.0
+26889258898,79310242595,lint,Install dependencies,4,success,16.0
+26889258898,79310242595,lint,Run static analysis,5,success,0.0
+26889258898,79310242595,lint,Post Set up Python,9,success,0.0
+26889258898,79310242595,lint,Post Checkout repository,10,success,0.0
+26889258898,79310242595,lint,Complete job,11,success,0.0
+26889258898,79310330067,summarize,Set up job,1,success,1.0
+26889258898,79310330067,summarize,Download test artifacts,2,success,2.0
+26889258898,79310330067,summarize,Publish summary,3,success,0.0
+26889258898,79310330067,summarize,Complete job,4,success,0.0
+26889256053,79310231737,tests,Set up job,1,success,1.0
+26889256053,79310231737,tests,Checkout repository,2,success,0.0
+26889256053,79310231737,tests,Set up Python,3,success,5.0
+26889256053,79310231737,tests,Install dependencies,4,success,16.0
+26889256053,79310231737,tests,Run automated tests,5,success,1.0
+26889256053,79310231737,tests,Build test metrics,6,success,0.0
+26889256053,79310231737,tests,Upload test artifacts,7,success,1.0
+26889256053,79310231737,tests,Post Set up Python,13,success,0.0
+26889256053,79310231737,tests,Post Checkout repository,14,success,0.0
+26889256053,79310231737,tests,Complete job,15,success,0.0
+26889256053,79310231989,lint,Set up job,1,success,0.0
+26889256053,79310231989,lint,Checkout repository,2,success,1.0
+26889256053,79310231989,lint,Set up Python,3,success,1.0
+26889256053,79310231989,lint,Install dependencies,4,success,15.0
+26889256053,79310231989,lint,Run static analysis,5,success,0.0
+26889256053,79310231989,lint,Post Set up Python,9,success,1.0
+26889256053,79310231989,lint,Post Checkout repository,10,success,0.0
+26889256053,79310231989,lint,Complete job,11,success,0.0
+26889256053,79310333785,summarize,Set up job,1,success,1.0
+26889256053,79310333785,summarize,Download test artifacts,2,success,1.0
+26889256053,79310333785,summarize,Publish summary,3,success,0.0
+26889256053,79310333785,summarize,Complete job,4,success,0.0
+26889087512,79309604344,lint,Set up job,1,success,1.0
+26889087512,79309604344,lint,Checkout repository,2,success,1.0
+26889087512,79309604344,lint,Set up Python,3,success,3.0
+26889087512,79309604344,lint,Install dependencies,4,success,16.0
+26889087512,79309604344,lint,Run static analysis,5,success,0.0
+26889087512,79309604344,lint,Post Set up Python,9,success,1.0
+26889087512,79309604344,lint,Post Checkout repository,10,success,0.0
+26889087512,79309604344,lint,Complete job,11,success,0.0
+26889087512,79309604586,tests,Set up job,1,success,1.0
+26889087512,79309604586,tests,Checkout repository,2,success,1.0
+26889087512,79309604586,tests,Set up Python,3,success,4.0
+26889087512,79309604586,tests,Install dependencies,4,success,16.0
+26889087512,79309604586,tests,Run automated tests,5,success,1.0
+26889087512,79309604586,tests,Build test metrics,6,success,0.0
+26889087512,79309604586,tests,Upload test artifacts,7,success,1.0
+26889087512,79309604586,tests,Post Set up Python,13,success,0.0
+26889087512,79309604586,tests,Post Checkout repository,14,success,0.0
+26889087512,79309604586,tests,Complete job,15,success,0.0
+26889087512,79309724425,summarize,Set up job,1,success,1.0
+26889087512,79309724425,summarize,Download test artifacts,2,success,1.0
+26889087512,79309724425,summarize,Publish summary,3,success,0.0
+26889087512,79309724425,summarize,Complete job,4,success,0.0
 26888726715,79308284589,tests,Set up job,1,success,1.0
 26888726715,79308284589,tests,Checkout repository,2,success,1.0
 26888726715,79308284589,tests,Set up Python,3,success,1.0
